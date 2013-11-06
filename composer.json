@@ -1,0 +1,30 @@
+{
+  "name": "tstachl/desk",
+  "type": "library",
+  "description": "An APIv2 wrapper for desk.com.",
+  "keywords": ["API", "desk.com", "wrapper"],
+  "homepage": "https://github.com/tstachl/desk.php",
+  "license": "MIT",
+  "authors": [{
+    "name": "Thomas Stachl",
+    "email": "tstachl@salesforce.com",
+    "homepage": "http://www.salesforce.com",
+    "role": "Technical Consultant"
+  }],
+  "require": {
+    "php": ">=5.3.0",
+    "zendframework/zendframework1": "1.12.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "2.0.*@dev",
+    "henrikbjorn/phpspec-code-coverage": "1.0.*@dev"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  }
+}
